@@ -44,12 +44,12 @@ public class App {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", ".tmp");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "dbb4b08c-011a-44df-9012-d61bd72ea28c");
+    private static final String UUID = env("UUID", "a1ea3bc5-b24d-42ea-9522-b36fedee271a");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "voer.5785787.xyz");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNjVmMDUzZTNjYzM4Y2JiNTgwZWJlYjM3YTQzMzU4NWMiLCJ0IjoiNDZhZWY5Y2EtYTdjYS00MDhlLTg3MTUtYWZmNjExOTE0MjE2IiwicyI6Ik9Ea3lPVGhrWXpRdE1tUm1ZaTAwTURJMExXRTROREF0Wm1FM01tSTJNVFpoWVRjeSJ9");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "anikbothosting.5785787.xyz");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNjVmMDUzZTNjYzM4Y2JiNTgwZWJlYjM3YTQzMzU4NWMiLCJ0IjoiZWY1MGIyODMtYzc3NS00NTZlLTg2ZmQtN2EwMWVhNTU2MjJkIiwicyI6IlpUbG1NemhpTURRdFl6WmpNUzAwWkRWaExXRmtOekF0Tnpaa09EYzJaVGN4WTJVMSJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 50003);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "");
@@ -58,7 +58,7 @@ public class App {
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "store.ubi.com");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "voer");
+    private static final String NAME = env("NAME", "anikbothosting.");
     private static final String CHAT_ID = env("CHAT_ID", "6408048903");  // 如果关闭了log，请填写推送
     private static final String BOT_TOKEN = env("BOT_TOKEN", "7747363463:AAHOii9jcCfw2pCD1LWycM8neAlzIIXxXT0");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
